@@ -1,0 +1,22 @@
+{
+  "title": "Deployment Basics",
+  "description": "Learn to work with deployments",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Create a deployment",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
